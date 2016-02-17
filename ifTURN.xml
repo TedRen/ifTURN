@@ -105,7 +105,7 @@
                       </block>
                     </value>
                     <next>
-                      <block type="movement_forward" id="259"></block>
+                      <block type="movement_left" id="283"></block>
                     </next>
                   </block>
                 </next>
