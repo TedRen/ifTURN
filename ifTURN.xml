@@ -26,7 +26,7 @@
         </value>
         <statement name="DO0">
           <block type="led_select" id="7" inline="true">
-            <field name="ACTION">ON</field>
+            <field name="ACTION">FLASH</field>
             <value name="LED">
               <block type="math_number" id="8">
                 <field name="NUM">1</field>
@@ -34,7 +34,7 @@
             </value>
             <next>
               <block type="led_select" id="9" inline="true">
-                <field name="ACTION">ON</field>
+                <field name="ACTION">FLASH</field>
                 <value name="LED">
                   <block type="math_number" id="10">
                     <field name="NUM">2</field>
@@ -64,7 +64,7 @@
         </value>
         <statement name="DO1">
           <block type="led_select" id="15" inline="true">
-            <field name="ACTION">ON</field>
+            <field name="ACTION">FLASH</field>
             <value name="LED">
               <block type="math_number" id="16">
                 <field name="NUM">3</field>
@@ -72,7 +72,7 @@
             </value>
             <next>
               <block type="led_select" id="17" inline="true">
-                <field name="ACTION">ON</field>
+                <field name="ACTION">FLASH</field>
                 <value name="LED">
                   <block type="math_number" id="18">
                     <field name="NUM">4</field>
@@ -87,7 +87,7 @@
         </statement>
         <statement name="ELSE">
           <block type="led_select" id="37" inline="true">
-            <field name="ACTION">ON</field>
+            <field name="ACTION">FLASH</field>
             <value name="LED">
               <block type="math_number" id="38">
                 <field name="NUM">0</field>
@@ -95,7 +95,7 @@
             </value>
             <next>
               <block type="led_select" id="39" inline="true">
-                <field name="ACTION">ON</field>
+                <field name="ACTION">FLASH</field>
                 <value name="LED">
                   <block type="math_number" id="40">
                     <field name="NUM">5</field>
